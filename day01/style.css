@@ -1,0 +1,33 @@
+/* style.css */
+* {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 40px;
+    background-color: #f0f0f0;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+ }
+
+#result {
+    margin-top: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.pop {
+    animation: pop 0.4s ease;
+}
