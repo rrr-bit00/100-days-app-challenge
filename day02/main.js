@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 const buttons = document.querySelectorAll("#buttons button");
 const results = document.getElementById("result");
 const text = document.getElementById("input_text");
@@ -43,7 +41,6 @@ buttons.forEach(btn => {
 
 submit.addEventListener("click", () => {
     const add_button = document.createElement("button");
-    if (!add_button.innerHTML) return;
 
     // textareaの値を受け取る
     const add_drink = text.value;
@@ -94,4 +91,3 @@ function addHistory(drinkName, resultText) {
     li.textContent = `${drinkName} -> ${resultText}`;
     history.appendChild(li);
 }
->>>>>>> d58ff12 (当たりつき自販機完成！)
