@@ -41,6 +41,7 @@ buttons.forEach(btn => {
 
 submit.addEventListener("click", () => {
     const add_button = document.createElement("button");
+    if (text.value == '') return;
 
     // textareaの値を受け取る
     const add_drink = text.value;
