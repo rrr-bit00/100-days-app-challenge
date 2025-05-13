@@ -1,0 +1,43 @@
+<<<<<<< HEAD
+=======
+* {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: beige;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+textarea {
+    width: 40%;
+    height: 50px;
+    max-width: 40%;
+    max-height: 50px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    resize: none;
+}
+
+li {
+    padding: 5px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#add_drink_style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+>>>>>>> d58ff12 (当たりつき自販機完成！)

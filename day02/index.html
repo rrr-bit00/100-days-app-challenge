@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+<<<<<<< HEAD
     <title>自販機</title>
 </head>
 <body>
+=======
+    <title>当たりつき自販機</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <h1>当たりつき自販機</h1>
+    <div id="buttons">
+        <button data-name="コーラ">コーラ</button>
+        <button data-name="お茶">お茶</button>
+        <button data-name="水">水</button>
+    </div>
+
+    <p id="result"></p>
+
+    <div id="add_drink_style">
+        <textarea id="input_text" placeholder="ここに追加したい飲み物を追加してください"></textarea>
+        <button id="submit">決定</button>
+    </div>
+
+    <hr>
+
+    <h3>---履歴---
+    <br>当たりが出るまで記録します
+    </h3>
+
+    <ul id="history"></ul>
+>>>>>>> d58ff12 (当たりつき自販機完成！)
     <script src="main.js"></script>
 </body>
 </html>
