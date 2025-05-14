@@ -1,6 +1,6 @@
 # Day03 - 電卓アプリ（履歴・保存機能つき）
 
-![Day03 Screenshot](image-1.png)
+![Day03 Screenshot](image.png)
 
 ## 🖥 デモ
 
