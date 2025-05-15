@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>バリデーションフォーム</title>
+</head>
+<body>
+    <h1>情報入力フォーム</h1>
+    <div id="name">
+        <label for="first-name">姓</label>
+        <input id="first-name" placeholder="山田">
+        <p class="error-massage" id="first-name-error"></p>
+
+        <label for="second-name">名</label>
+        <input id="second-name" placeholder="太郎">
+        <p class="error-massage" id="second-name-error"></p>
+    </div>
+    <div id="mail">
+        <label for="email">Email</label>
+        <input id="email" placeholder="user@example.com">
+        <p class="error-massage" id="email-error"></p>
+    </div>
+    <div id="pass">
+        <label for="password">パスワード</label>
+        <input id="password" type="password">
+        <p class="error-massage" id="password-error"></p>
+
+        <label for="check-pass">確認用パスワード</label>
+        <input id="check-pass" type="password">
+        <p class="error-massage" id="check-pass-error"></p>
+    </div>
+
+    <button id="submit">決定</button>
+
+    <p id="history">---入力履歴---</p>
+    <table id="history-table">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>氏名</th>
+            <th>メールアドレス</th>
+            <th>パスワード</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody id="history-table-body"></tbody>
+    </table>
+    <script src="main.js"></script>
+</body>
+</html>
