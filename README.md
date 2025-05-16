@@ -35,6 +35,15 @@
 | 1 | おみくじアプリ | HTML / CSS / JS | [day01](./day01) |
 | 2 | 当たり付き自販機アプリ | HTML / CSS / JS | [day02](./day02) |
 | 3 | 電卓アプリ | HTML / CSS / JS / localStorage | [day03](./day03) |
+| 4 | バリデーションフォーム | HTML / CSS / JS / localStorage| [day04](./day04) |
+| 5 | じゃんけんゲーム | HTML / CSS / JS | [day05](./day05) |
+|   |           |                                |                  |
+|   |           |                                |                  |
+|   |           |                                |                  |
+|   |           |                                |                  |
+|   |           |                                |                  |
+|   |           |                                |                  |
+|   |           |                                |                  |
 
 ---
 
