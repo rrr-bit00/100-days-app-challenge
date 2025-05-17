@@ -37,7 +37,7 @@
 | 3 | 電卓アプリ | HTML / CSS / JS / localStorage | [day03](./day03) |
 | 4 | バリデーションフォーム | HTML / CSS / JS / localStorage| [day04](./day04) |
 | 5 | じゃんけんゲーム | HTML / CSS / JS | [day05](./day05) |
-|   |           |                                |                  |
+| 6 | 数値当てゲーム | HTML / CSS / JS | [day06](./day06) |
 |   |           |                                |                  |
 |   |           |                                |                  |
 |   |           |                                |                  |

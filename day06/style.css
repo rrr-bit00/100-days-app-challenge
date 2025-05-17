@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f4f8;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#num-of-challenge {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1.2rem;
+    width: 200px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#errorLog {
+    color: red;
+    font-size: 0.95rem;
+    margin-top: 10px;
+    height: 1.2em;
+}
+
+#result {
+    font-size: 1.3rem;
+    transition: all 0.3s;
+}
+
+#result.correct {
+    color: green;
+}
+
+#result.high, #result.low {
+    color: #555;
+}
+
+#result.gameover {
+    color: red;
+    font-size: 1.6rem;
+}
+
+#reset {
+    background-color: #6c757d;
+}
+
+#reset:hover {
+    background-color: #495057;
+}
