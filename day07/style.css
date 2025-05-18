@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    background-color: #f7f9fc;
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#quote-box {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#quote-text {
+    font-size: 1.4rem;
+    color: #555;;
+    line-height: 1.6;
+}
+
+#fetch-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#fetch-button:hover {
+    background-color: #0056b3;
+}

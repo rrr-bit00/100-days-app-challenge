@@ -38,7 +38,7 @@
 | 4 | バリデーションフォーム | HTML / CSS / JS / localStorage| [day04](./day04) |
 | 5 | じゃんけんゲーム | HTML / CSS / JS | [day05](./day05) |
 | 6 | 数値当てゲーム | HTML / CSS / JS | [day06](./day06) |
-|   |           |                                |                  |
+| 7 | 名言表示アプリ | HTML / CSS / JS / class / fetch | [day07](./day07) |
 |   |           |                                |                  |
 |   |           |                                |                  |
 |   |           |                                |                  |
