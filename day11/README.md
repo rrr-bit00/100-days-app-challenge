@@ -63,3 +63,10 @@ JavaScript のクラス構造を使い、データの取得・表示処理を整
 - 国データをカード形式でより視覚的にレイアウト
 
 ---
+
+## 使用APIについて
+
+このアプリでは、以下の外部APIを利用しています。
+
+- REST Countries API (https://restcountries.com/) - 国データの取得に利用
+  - Licensed under the MIT License (https://github.com/apilayer/restcountries/blob/master/LICENSE)
