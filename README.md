@@ -43,7 +43,8 @@
 | 9 | Todoアプリ | HTML / CSS / JS / class | [day09](./day09) |
 | 10 | 本貸し出しAPI | Python / FastAPI | [day10](./day10) |
 | 11 | 国検索アプリ | HTML / CSS / JS / class / fetch | [day11](./day11) |
-|   |           |                                |                  |
+| 12 | 地域別国情報カード | HTML / CSS / JS / class / fetch | [day12](./day12) |
+| 13 | 映画情報管理API | Python / FastAPI / SQLite3 | [day13](./day13) |
 
 ---
 
