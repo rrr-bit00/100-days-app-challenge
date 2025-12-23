@@ -3,7 +3,8 @@ import { searchMovies } from "@/lib/search";
 
 export default async function MoviePage({searchParams}) {
     // クエリがあるか判定
-    const query = searchParams.q ?? ''
+    const {q} = await searchParams;
+    const query = q ?? ''
 
     // 検索クエリから問い合わせ
     const movies = await searchMovies(query)

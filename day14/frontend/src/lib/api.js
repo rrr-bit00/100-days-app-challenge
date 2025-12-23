@@ -1,6 +1,6 @@
 export async function searchMoviesApi(q) {
     const res = await fetch(
-        `http://localhost:8080/movies?query=${encodeURIComponent(q)}`,
+        `http://backend:8080/movies?query=${encodeURIComponent(q)}`,
         {cache: "no-store"}
     )
 
@@ -12,7 +12,7 @@ export async function searchMoviesApi(q) {
 
 export async function getMovieIdApi(id) {
     const res = await fetch (
-        `http://localhost:8080/movies/${id}`,
+        `http://backend:8080/movies/${id}`,
         {cache: "no-store"}
     )
     if (!res.ok) {
